@@ -194,7 +194,7 @@ namespace ariel
 
     void Notebook::show(int page) 
     {
-        if(page<0)
+        if(page<0) // check if page number is negative
         {
             throw invalid_argument("page number need to be positive");
         }
